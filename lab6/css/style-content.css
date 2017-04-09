@@ -1,0 +1,63 @@
+
+
+/*(1) 默认文字 大小 行高*/
+html {
+	font:Arial，12px， ‘宋体’;
+}
+
+p{
+	line-height:2em;	
+}
+/*（2）超链接颜色  下划线*/
+a:link {color: #727272;
+	text-decoration:none;	
+}
+
+
+a:hover {
+	 text-decoration: underline;
+}
+
+
+/*菜单栏中的文字*/
+
+.menu {
+	font-size: 14px;
+	color: #b9f605;
+	font-weight: bold;
+}
+
+/*菜单栏超链接*/
+ .menu a{
+ 	color:white;
+ }
+
+.menu a:hover{
+	color: #b9f605;
+	text-decoration: none;
+}
+
+.special a{
+	color:#fdb306;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
