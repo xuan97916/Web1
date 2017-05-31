@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+	<head>
+		<title>float</title>
+		<meta charset="UTF-8"/>
+		<style>
+		.alpha1
+		{
+			padding:10px 20px;
+			border: 0px solid black;
+			margin:10px;
+			width: 550px;
+			height:175px;
+			background-color:rgb(237,234,241);
+			float:left;
+			overflow:scroll;
+		}
+		.beta
+		{
+			padding:0px 0px;
+			border: 0px solid black;
+			margin:10px;
+			width: 250px;
+			height:200px;
+			background-color:rgb(181,162,200);
+			float:left;
+		}
+		.alpha2
+		{
+			padding:10px 20px;
+			border: 0px solid black;
+			margin:10px;
+			width: 320px;
+			height:175px;
+			background-color:rgb(237,234,241);
+			float:left;
+		}
+		.charlie
+		{
+			padding:0px 0px;
+			border: 0px solid black;
+			margin:5px;
+			width: 300px;
+			height:50px;
+			background-color:rgb(181,162,200);
+			float:left;
+		}
+		.delta
+		{	
+			margin:auto;
+			height:300px;
+			width:500px;
+			background-color:rgba(255,0,0,0.4);
+			clear:both;
+			position:absolute;
+			top:50px;
+			left:50px;
+			z-index:2;
+		}
+		.echo
+		{	
+
+			height:100px;
+			width:500px;
+			background-color:rgba(246,252,89,0.5);
+			float:right;
+			position:absolute;
+			top:50px;
+			left:50px;
+			z-index:3;
+			
+		}
+		
+		</style>
+	</head>
+	<body>
+		<div class="alpha1">
+			<div class="beta">
+			内容1
+			</div>
+			<div class="beta">
+			内容1
+			</div>
+			<div class="beta">
+			内容1
+			</div>
+			<div class="beta">
+			内容1
+			</div>
+		</div>
+		<div class="alpha2">
+			<div class="charlie">
+			内容1
+			</div>
+			<div class="charlie">
+			内容1
+			</div>
+			<div class="charlie">
+			内容1
+			</div>
+		</div>
+		<div class="delta">
+			内容2
+		</div>
+		<div class="echo">
+			内容3
+		</div>
+	</body>
+</html>
