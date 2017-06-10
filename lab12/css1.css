@@ -1,0 +1,20 @@
+.words
+{
+	text-align:center;
+}
+.images
+{
+	float:left;
+	margin:10px;
+}
+.images img
+{
+	height:200px;
+	width:250px;
+	opacity:0.5;
+}
+
+.images img:hover
+{
+	opacity:1.0;
+}
